@@ -1,0 +1,210 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.6;
+  background-color: blanchedalmond;
+  color: #49281a;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  color: #49281a;
+  padding: 50px 0;
+}
+
+.h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.p {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.hr {
+  border: none;
+  height: 2px;
+  background-color: black;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.navul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: blanchedalmond;
+  padding: 0;
+  margin: 0;
+}
+
+.navli {
+  margin: 0 10px;
+}
+
+.nava {
+  color: #49281a;
+  text-decoration: none;
+  padding: 15px 10px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+}
+
+.navul .navli .nava:hover {
+  background-color: azure;
+}
+
+section {
+  padding: 20px;
+  background-color: blanchedalmond;
+}
+
+section p {
+  color: black;
+  font-family: sans-serif;
+}
+
+.menu-item {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.menu-item img {
+  max-width: 200px;
+  border-radius: 100px;
+  padding: 20px;
+}
+
+.menu-items h3 {
+  margin: 10px 0;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  text-align: center;
+  gap: 15px;
+  padding: 5px;
+}
+
+.card {
+  background-color: blanchedalmond;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-img {
+  width: 190px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.card h4 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.card p {
+  font-family: sans-serif;
+  color: black;
+}
+
+.price {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 70px;
+  border-width: 0px;
+  background-color: #49281a;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  /* width: 300px; */
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  width: 5px;
+}
+
+form label {
+  margin-bottom: 15px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #49281a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+.label {
+  font-family: serif;
+  color: black;
+}
+
+footer {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px;
+  background-color: blanchedalmond;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.top {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-decoration: none;
+  color: black;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
+  border-radius: 100%;
+  border: 5px solid #49281a;
+  text-align: center;
+  z-index: 999;
+}
